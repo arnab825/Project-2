@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgreen;
+    padding: 10px 20px;
+}
+
+.left-nav-bar .logo h1 {
+    color: black;
+    margin: 0;
+}
+
+.center-nav-bar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.center-nav-bar ul li {
+    margin: 0 10px;
+}
+
+.center-nav-bar ul a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 14px 20px;
+    display: block;
+}
+
+.center-nav-bar ul a:hover {
+    background-color: blueviolet;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.right-nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.list-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.list-item a:hover {
+    color: #000000;
+    transition: 0.8s;
+}
+
+.button .login {
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button .login a {
+    color: white;
+    text-decoration: none;
+}
