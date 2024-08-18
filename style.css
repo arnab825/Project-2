@@ -75,3 +75,11 @@ body {
     color: white;
     text-decoration: none;
 }
+
+
+.button .login a:hover{
+    color: blue;
+    transition:all 0.8s;
+    font-size: 18px;
+   
+}
