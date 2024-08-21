@@ -83,3 +83,62 @@ body {
     font-size: 18px;
    
 }
+
+.landing-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+.landing-page .hero-container{
+    padding: 1.563rem 1.375rem 1.75rem 2.25rem;
+}
+
+
+.left-div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.left-div h1{
+    font-size: 14px;
+    border: 5px solid greenyellow;
+    width: 191px;
+    border-radius: 29px;
+    padding: 10px;
+    background-color: greenyellow;
+}
+
+
+.left-div h2{
+    /* line-height: 5px; */
+    font-size: 42px;
+    font-weight: 550;
+}
+
+.left-div p{
+    width: 516px;
+    
+}
+
+.left-div .bttn{
+    width: 110px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: #0000;
+}
+
+.left-div .btn a{
+ 
+    list-style: none;
+    text-decoration: none;
+}
+
+.right-div{
+    display: flex;
+    width: 45px;
+}
