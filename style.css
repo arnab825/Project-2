@@ -77,9 +77,9 @@ body {
 }
 
 
-.button .login a:hover{
+.button .login a:hover {
     color: blue;
-    transition:all 0.8s;
+    transition: all 0.8s;
     font-size: 18px;
-   
+
 }
