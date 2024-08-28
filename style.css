@@ -215,6 +215,7 @@ section{
     max-height: 400px;
     border: 12px solid black;
     border-radius: 50%;
+    background-color: #2980b9;
     overflow: hidden;
     margin-bottom: 245px;
 }
