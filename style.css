@@ -16,7 +16,7 @@ body {
 
 .left-nav-bar .logo h1 {
     color: black;
-    margin: 0;
+    margin-left: 116px;
 }
 
 .center-nav-bar ul {
@@ -53,6 +53,7 @@ body {
     text-decoration: none;
     padding: 14px 20px;
     display: block;
+    align-items: flex-end;
 }
 
 .list-item a:hover {
