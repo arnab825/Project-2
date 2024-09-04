@@ -5,7 +5,7 @@ body {
     margin: 0;
     overflow: auto;
     /*overflow: hidden;*/
-    background-color: whitesmoke;
+    background-color: steelblue;
 }
 
 .nav-container {
@@ -108,8 +108,8 @@ section{
     display: flex;
     flex: 1;
     padding-right: 20px;
-    margin: 0px 81px 29px 49px;
-    padding: 68px;
+    margin: 0px 80px -417px 49px;
+    padding: 69px;
 } 
 
 .left-div
@@ -147,9 +147,20 @@ section{
 .left-div p {
     font-size: 15px;
     margin-bottom: 20px;
-    color: grey;
+    color: cornsilk;
     padding: 3px 18px 11px 0;
     line-height: 25px;
+}
+
+
+.brands{
+    display: flex;
+ 
+}
+
+.brands img{
+    width: 124px;
+    margin-top: 46px;
 }
 
 .right-div {
@@ -169,7 +180,7 @@ section{
     border-radius: 20%;
     background-color: #B2B2B2;
     overflow: hidden;
-    margin-bottom: 339px;
+    margin-bottom: 541px;
     border-width: 1px;
 
 }
@@ -307,5 +318,69 @@ section{
     margin-left: 291px;
     /* margin-top: -6px; */
     margin-bottom: 94px;
+}
 
+.why-choose-section {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-choose-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.why-choose-section p {
+    font-size: 1rem;
+    color: #aaaaaa;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: grid;
+    /*flex-wrap: wrap;*/
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background-color: #c5ff00;
+}
+
+.card h3 {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.card h3 p:hover{
+    color: black;
+}
+
+.card p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+/*.card p:hover{
+    color: black;
+}*/
+
+.card a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
 }
