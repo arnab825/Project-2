@@ -4,15 +4,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
     margin: 0;
     overflow: auto;
-    /*overflow: hidden;*/
-    background-color: steelblue;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: grey;
+    background-color: seashell;
     padding: 10px 20px;
 }
 
@@ -65,32 +65,17 @@ body {
 }
 
 .button .login {
-    background: #3498db;
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    background: yellow;
+    /*background-image: linear-gradient(to bottom, #3498db, #2980b9);*/
     border-radius: 28px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ffffff;
+    color: black;
     text-decoration: none;
     font-size: 15px;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
 }
-
-.button .login a {
-    color: purple;
-  
-}
-
-
-.button .login a:hover{
-    color: blue;
-    transition:all 0.8s;
-    font-size: 18px;
-    text-decoration: none;
-   
-}
-
 
 section{
     width: 100%;
@@ -101,9 +86,6 @@ section{
     box-sizing: border-box;
 }
 
-
-
- 
 .landing-page{
     display: flex;
     flex: 1;
@@ -121,7 +103,7 @@ section{
 }
 
 .left-div b{
-    font-size: 14px;
+    font-size: 17px;
     border: 5px solid greenyellow;
     width: 191px;
     border-radius: 29px;
@@ -129,11 +111,10 @@ section{
     background-color: greenyellow;
 }
 
-
 .left-div h1 {
     font-size: 40px;
     margin-bottom: 10px;
-    color: #333;
+    color: black;
     padding: 30px 0 30px 0;
     line-height: 54px;
 }
@@ -147,15 +128,25 @@ section{
 .left-div p {
     font-size: 15px;
     margin-bottom: 20px;
-    color: cornsilk;
+    color: white;
     padding: 3px 18px 11px 0;
     line-height: 25px;
 }
 
+.button .get-started {
+    background: yellow;
+    border-radius: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
 
 .brands{
     display: flex;
- 
 }
 
 .brands img{
@@ -251,7 +242,7 @@ section{
 }
 
 .left-item-bio p{
-    color:#B2B2B2;
+    color:whitesmoke;
 }
 
 
@@ -273,11 +264,11 @@ section{
     text-align: center;
 }
 
-.left-bio-item-box  div h4{
+.left-bio-item-box div h4{
     font-size: 30px;
     font-weight: bold;
-    transition: 1.5s ease;
-    padding-bottom: -18px;
+    transition: 0.5s;
+    /*padding-bottom: -18px;*/
     margin: 20px 0 3px 0;
 }
 
@@ -287,7 +278,6 @@ section{
 }
 
 .right-item-bio{
-   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,26 +289,17 @@ section{
 
 
 .right-item-bio-image{
- 
-    /* height: 40vw; */
-    /* max-width: 343px; */
-    /* max-height: 427px; */
-    /* margin-left: 271px;
-    margin-bottom: 238px; */
     max-width: 364px;
     margin: 0;
     width: 100%;
-    
 }
 
 .right-item-bio-image img{
-   
-    /* height: auto; */
-    width: 354px;
+    width: 450px;
     display: flex;
     margin-left: 291px;
-    /* margin-top: -6px; */
     margin-bottom: 94px;
+    border-radius: 5%;
 }
 
 .why-choose-section {
@@ -328,12 +309,13 @@ section{
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    text-decoration: none;
 }
 
 .why-choose-section h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #aaaaaa;
+    color: whitesmoke;
 }
 
 .why-choose-section p {
@@ -346,12 +328,12 @@ section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-
     justify-content: center;
 }
 
 .card {
     background-color: #1e1e1e85;
+    color:#c3ff0079;
     border-radius: 10px;
     padding: 23px;
     width: 258px;
@@ -398,10 +380,132 @@ section{
     color: #000000;
 }
 
-.why-choose-section{
+.course-teacher-section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
 }
-.card{
-    color:#c3ff0079;
+
+.course-teacher-section h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white;
 }
 
+.course-teacher-section p {
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 0px;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-grid {
+    width: 259px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.069);
+    border-radius: 30px;
+}
+
+.image-grid h4{
+    text-align: center;
+}
+
+.image-grid p{
+    text-align: center;
+    color: snow;
+}
+
+/*.image-grid img{
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    margin-bottom: 20px;
+}*/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  
+  .footer-section {
+    width: 22%;
+  }
+  
+  .footer-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .footer-desc {
+    margin-bottom: 20px;
+    color: #aaa;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #fff;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding: 15px 0;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+    color: #aaa;
+  }
