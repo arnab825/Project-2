@@ -380,10 +380,12 @@ section{
     color: rgb(225, 219, 45);
 }
 
+
 .card p:hover {
     color: rgb(0, 0, 0);
     font-weight: 600;
 }
+
 
 .card a {
     text-decoration: none;
