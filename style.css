@@ -105,6 +105,7 @@ html {
     border: none;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-transform:uppercase ;
     border: none;
 }
 
@@ -180,6 +181,8 @@ section{
     text-decoration: none;
     font-size: 20px;
     padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 650;
     border: none;
     cursor: pointer;
 }
