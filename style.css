@@ -59,6 +59,8 @@ html {
     color: rgb(2, 15, 3);
     padding: 14px 20px;
     display: block;
+    font-weight: 700;
+    text-transform: uppercase;
     transition: all 0.3s ease;
 }
 
@@ -71,6 +73,8 @@ html {
 .right-nav-bar {
     display: flex;
     align-items: center;
+    font-weight: 650;
+    text-transform: uppercase;
 }
 
 .list-item a {
